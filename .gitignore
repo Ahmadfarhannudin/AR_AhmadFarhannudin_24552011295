@@ -1,0 +1,44 @@
+# ================= Unity generated / cache =================
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]serSettings/
+.utmp/
+MemoryCaptures/
+Recordings/
+
+# Unity crash recovery (auto-generated, bukan scene asli)
+Assets/_Recovery/
+
+# IDE / editor generated files
+.vs/
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.csproj
+*.sln
+*.slnx
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity build output & archives
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
