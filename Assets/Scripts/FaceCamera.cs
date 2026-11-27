@@ -6,8 +6,7 @@ public class FaceCamera : MonoBehaviour
     {
         if (Camera.main == null) return;
 
-        // Canvas menghadap ke kamera
-        transform.rotation = Quaternion.LookRotation(
-            transform.position - Camera.main.transform.position);
+        // Selaraskan canvas dengan arah kamera
+        transform.rotation = Camera.main.transform.rotation;
     }
 }
